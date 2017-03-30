@@ -23,7 +23,7 @@ first = 1
 second = 2
 term_sum = 2
 
-ran = 100000
+ran = 4000000
 
 for each in range(ran-2):
     print("\rIteration {} from {} [{:.1%}]".format(each+1, ran-2, (each+1)/(ran-2)), end="")
